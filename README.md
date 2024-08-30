@@ -1,1 +1,1 @@
-# projecthike
+# no detail
