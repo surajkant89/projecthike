@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         button.addEventListener('click', function() {
             if (navigator.share) {
                 navigator.share({
-                    title: `Check out card ${index + 1}!`,
+                    title: `THESE IS MY CARD ID NUMBER IS ${index + 1}!`,
                     text: `Hey, I found this interesting FREE-card just follow ${index + 1}. You should check it out!`,
                     url: window.location.href
                 }).then(() => {
